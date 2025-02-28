@@ -53,7 +53,7 @@ buscar_corredores <- function() {
 }
 
 # Autenticação utilizando o token fornecido
-token <- "5815939c86858c6631dc068008aab013119d4d4b1bc562632001d07b91685f77"
+token <- "5815939c86858c6631dc068008aab013119d4d4b1bc562632001d07b91685f77" # Token de teste foi exclido, seguir a documentação para criar um novo
 if (autenticar(token)) {
   # Buscar os corredores
   corredores <- buscar_corredores()
